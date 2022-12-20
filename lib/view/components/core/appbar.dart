@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:graduation/view/components/fonts.dart';
 
 import 'color.dart';
 
@@ -11,7 +12,7 @@ import 'color.dart';
     ),
     title: Text(
        name,
-    style:TextStyle( fontFamily: 'Courgette',
+    style:TextStyle( fontFamily: AppFonts.kFontsCourgette,
         color: Colors.black)
     //GoogleFonts.pacifico(color: Colors.black,fontWeight:FontWeight.bold)
 

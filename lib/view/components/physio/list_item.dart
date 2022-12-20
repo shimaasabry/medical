@@ -9,9 +9,8 @@ list_Item( String diseasName,String imgPath) {
       padding: EdgeInsets.only(left: 10.0, right: 10.0, top: 10.0),
       child: InkWell(
           onTap: () {
-            // Navigator.of(context).push(MaterialPageRoute(
-            //     builder: (context) => DetailsPage(heroTag: imgPath, diseaseName)
-            // ));
+
+          //  Navigator.push(context, MaterialPageRoute(builder: (context)=>screen));
           },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
